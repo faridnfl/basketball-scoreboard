@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2, h3 {
+    margin: 0px;
+}
+
+#main {
+    background-color: #1B244A;
+    width: 350px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+#main-container {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.score-container {
+    padding: 10px 0px 0px 0px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin: 10px 0px 20px 0px;
+    font-size: 50px;
+    background-color: black;
+    color: red;
+}
+
+.btn {
+    color: rgb(167, 167, 167);
+    background: none;
+    border: 1px rgb(167, 167, 167) solid;
+    padding: 5px 5px;
+}
+
+.reset-btn {
+    color: rgb(167, 167, 167);
+    padding: 5px 10px;
+    margin-top: 30px;
+    background: none;
+    border: 1px rgb(167, 167, 167) solid;
+}
